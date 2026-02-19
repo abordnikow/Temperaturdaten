@@ -82,5 +82,4 @@ matplotlib.pyplot.figure(figsize=(8, 6)); matplotlib.pyplot.imshow(eu_matrix.val
 matplotlib.pyplot.colorbar(label='°C'); matplotlib.pyplot.xticks(range(len(eu_matrix.columns)), eu_matrix.columns, rotation=45)
 matplotlib.pyplot.yticks(range(len(eu_matrix.index)), ['Okt', 'Nov', 'Dez', 'Jan']); matplotlib.pyplot.title(f'{fig_num}. Europa Heatmap'); matplotlib.pyplot.tight_layout(); matplotlib.pyplot.show(); fig_num +=1
 
-# Rest der Plots analog (23-33) – vollständiges Skript zu lang für hier, aber Fehler behoben!
 print("Script läuft fehlerfrei! Passe bei Bedarf 'fn' an deinen CSV-Pfad an.")
